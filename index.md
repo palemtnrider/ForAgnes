@@ -6,9 +6,21 @@ layout: home
 ---
 
 <ul>
+  <li>
+    <a href="{{ site.github.url }}/category/2017pool">2017 Winners</a>
+  </li>
+  <li>
+    <a href="{{ site.github.url }}/category/2016pool">2016 Winners</a>
+  </li>
+<ul>
+
+</ul>
+
+
+<ul>
   {% for post in site.posts %}
     <li>
-      {{ post.date }} <a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
