@@ -8,7 +8,7 @@ layout: home
 <ul>
   {% for post in site.posts %}
     <li>
-      {{ post.date }} <a href="{{ post.url }}">{{ post.title }}</a>
+      {{ post.date }} <a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
