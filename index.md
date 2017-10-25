@@ -14,8 +14,7 @@ layout: home
   </li>
 <ul>
 
-</ul>
-
+<hr/>
 
 <ul>
   {% for post in site.posts %}
