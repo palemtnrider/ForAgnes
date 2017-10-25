@@ -13,13 +13,3 @@ layout: home
     <a href="{{ site.github.url }}/category/2016pool">2016 Winners</a>
   </li>
 <ul>
-
-<hr/>
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ site.github.url }}/{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
